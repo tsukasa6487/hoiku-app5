@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'パスワード再設定 | 保育支援アプリ',
-  description: 'パスワードの再設定を行います',
+  title: 'パスワードリセット | 保育支援アプリ',
+  description: 'パスワードのリセットを行います',
 }
 
-export default function ForgotPasswordPage() {
+export default function ResetPasswordPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
@@ -25,7 +25,7 @@ export default function ForgotPasswordPage() {
         <div className="bg-white py-8 px-4 shadow-lg sm:rounded-lg sm:px-10">
           <div className="text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-2">
-              パスワード再設定
+              パスワードリセット
             </h2>
             <p className="text-sm text-gray-600 mb-6">
               この機能は現在開発中です。

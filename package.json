@@ -6,10 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
+    "@playwright/mcp": "^0.0.29",
+    "@playwright/test": "^1.53.1",
     "@supabase/auth-ui-react": "^0.4.7",
     "@supabase/auth-ui-shared": "^0.1.8",
     "@supabase/ssr": "^0.6.1",
@@ -17,6 +22,7 @@
     "lucide-react": "^0.518.0",
     "next": "15.3.4",
     "openai": "^5.5.1",
+    "playwright": "^1.53.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.58.1",
